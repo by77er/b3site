@@ -14,9 +14,15 @@ export default function Home() {
                         <h1 className="text-4xl font-bold mb-4 text-pretty">
                             Come party with furries at <br /><em>Bay Bark Bash</em>!
                         </h1>
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
-                            Get Tickets Online
-                        </button>
+                        <a
+                            href="https://tfcevents.concat.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
+                                Get Tickets Online
+                            </button>
+                        </a>
                     </div>
                 </section>
                 <section className="flex-1 p-4">
@@ -54,7 +60,7 @@ export default function Home() {
                         </div>
                         <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
                             <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">
-                                Where can I get updates about the event?
+                                Where can I get updates?
                             </h3>
                             <div className="flex flex-row gap-4 flex-wrap">
                                 <a
@@ -66,7 +72,7 @@ export default function Home() {
                                     Telegram
                                 </a>
                                 <a
-                                    href="https://x.com/tampafurryclub"
+                                    href="https://x.com/baybarkbash"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
@@ -74,7 +80,7 @@ export default function Home() {
                                     Twitter
                                 </a>
                                 <a
-                                    href="https://bsky.app/profile/tampafurry.club"
+                                    href="https://bsky.app/profile/baybarkbash.bsky.social"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded"

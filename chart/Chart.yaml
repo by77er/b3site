@@ -1,0 +1,6 @@
+apiVersion: v2
+name: b3-site
+description: A helm chart for the b3 site
+type: application
+version: 1.0.0
+appVersion: "1.0"
