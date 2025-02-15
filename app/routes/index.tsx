@@ -6,11 +6,11 @@ export function meta({}: Route.MetaArgs) {
   return [
     { title: "Bay Bark Bash" },
     { name: "description", content: "Come party with us at Bay Bark Bash!" },
-    { name: "og:title", content: "Bay Bark Bash" },
-    { name: "og:type", content: "website" },
-    { name: "og:url", content: "https://baybarkbash.tampafurry.club" },
-    { name: "og:image", content: "https://baybarkbash.tampafurry.club/img/BAY_BARK_BASH.png" },
-    { name: "og:description", content: "Come party with furries in St. Petersburg FL!" },
+    { property: "og:title", content: "Bay Bark Bash" },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://baybarkbash.tampafurry.club" },
+    { property: "og:image", content: "https://baybarkbash.tampafurry.club/img/BAY_BARK_BASH.png" },
+    { property: "og:description", content: "Come party with furries in St. Petersburg FL!" },
     { name: "keywords", content: "furry, event, party, Tampa, St. Petersburg" },
   ];
 }
