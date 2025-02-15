@@ -61,7 +61,7 @@ export default function Index() {
           className={`
             w-full md:w-auto overflow-hidden 
             ${menuOpen ? "max-h-screen" : "max-h-0"}
-            md:max-h-full
+            md:max-h-full text-lg
           `}
         >
           {navLinks.map((link) => (
