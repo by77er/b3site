@@ -20,7 +20,7 @@ export default function Home() {
                             rel="noopener noreferrer"
                         >
                             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
-                                Get Tickets Online
+                                Get Tickets
                             </button>
                         </a>
                     </div>

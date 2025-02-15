@@ -62,7 +62,7 @@ export default function Tos() {
                     <a href="mailto:tampafurryclub@gmail.com" className="underline">tampafurryclub@gmail.com</a> with the subject line "Bay Bark Bash Refund Request"
                     within the refund period.
                 </p>
-                <p>Last updated: February 15, 2024</p>
+                <p>Last updated: February 15, 2025</p>
             </div>
             <div className="rounded-2xl shadow-xl p-8 space-y-4 bg-white dark:bg-gray-800">
                 <h1
