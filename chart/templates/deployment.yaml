@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: b3-site
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          image: "{{ .Values.image }}"
+          imagePullPolicy: IfNotPresent
           env:
             - name: NODE_ENV
               value: {{ .Values.env.NODE_ENV | quote }}

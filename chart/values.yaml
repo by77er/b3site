@@ -1,9 +1,6 @@
 replicaCount: 1
 
-image:
-  repository: bitcrush/howlseve_site
-  tag: latest
-  pullPolicy: IfNotPresent
+image: docker.io/bitcrush/howlseve_site:latest
 
 service:
   type: ClusterIP
