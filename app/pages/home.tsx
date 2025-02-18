@@ -15,19 +15,13 @@ export default function Home() {
                             Come party with furries at <br /><em>Bay Bark Bash</em>!
                         </h1>
                         <a
-                            href="https://tfcevents.concat.app"
+                            href="https://baybarkbash.concat.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <a
-                                href="https://baybarkbash.concat.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
-                                    Get Tickets
-                                </button>
-                            </a>
+                            <button className="bg-blue-500 hover:bg-blue-00 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
+                                Get Tickets
+                            </button>
                         </a>
                     </div>
                 </section>
