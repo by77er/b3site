@@ -17,18 +17,18 @@ export default function Tos() {
                     id="terms_of_service"
                     className="text-2xl text-blue-500 font-bold scroll-mt-20"
                 >
-                    Bay Bark Bash Terms of Service
+                    Terms of Service
                 </h1>
                 <h2 className="mt-8 mb-2 text-xl font-semibold">Terms of Agreement:</h2>
                 <p>
-                    By purchasing a ticket for the event "Bay Bark Bash", you agree to the following terms and conditions.
+                    By purchasing a ticket for an event hosted by Tampa Furry Club LLC, you agree to the following terms and conditions.
                     These conditions are legally binding and failure to abide by them could result in revocation of access to this
                     event and any further events hosted by Tampa Furry Club LLC, henceforth referred to as "the Hosts".
                 </p>
                 <h2 className="mt-8 mb-2 text-xl font-semibold">Assumption of Risk and Liability:</h2>
                 <p>
-                    Bay Bark Bash is a live event that will likely include varying levels of physical activity, flashing lights,
-                    loud music, and sounds, which may pose a risk to certain individuals. By purchasing a ticket for Bay Bark Bash,
+                    This is a live event that will likely include varying levels of physical activity, flashing lights,
+                    loud music, and sounds, which may pose a risk to certain individuals. By purchasing a ticket,
                     you acknowledge and accept these risks, and agree to waive any claims against, and hold harmless, the Hosts
                     for any injuries or losses, except in cases of gross negligence or intentional misconduct by the Host. The Host
                     assumes no responsibility for any lost, damaged, or stolen property.
@@ -59,7 +59,7 @@ export default function Tos() {
                 </p>
                 <p>
                     To request a refund, please email{" "}
-                    <a href="mailto:tampafurryclub@gmail.com" className="underline">tampafurryclub@gmail.com</a> with the subject line "Bay Bark Bash Refund Request"
+                    <a href="mailto:tampafurryclub@gmail.com" className="underline">tampafurryclub@gmail.com</a> with the subject line "Ticket Refund Request"
                     within the refund period.
                 </p>
                 <p>Last updated: February 15, 2025</p>
@@ -69,7 +69,7 @@ export default function Tos() {
                     id="privacy_policy"
                     className="text-2xl text-blue-500 font-bold scroll-mt-20"
                 >
-                    Bay Bark Bash Privacy Policy
+                    Privacy Policy
                 </h1>
                 <h2 className="mt-8 mb-2 text-xl font-semibold">Data Collection and Use</h2>
                 <p>
