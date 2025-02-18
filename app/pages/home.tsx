@@ -45,7 +45,7 @@ export default function Home() {
                                 When's it happening?
                             </h3>
                             <p className="text-gray-700 dark:text-gray-300">
-                                April 5, 2025, from 7PM to 12AM
+                                April 5th, 2025, from 7PM to 12AM
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
@@ -53,9 +53,23 @@ export default function Home() {
                                 Where's it being held?
                             </h3>
                             <p className="text-gray-700 dark:text-gray-300">
-                                Roots to Crown in downtown St. Petersburg, FL
+                                <a
+                                    href="https://www.rootstocrown.space/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="underline hover:text-blue-500"
+                                >
+                                    Roots to Crown
+                                </a> in downtown St. Petersburg, FL
                                 <br />
-                                1741 1st Ave N, St. Petersburg, FL 33713
+                                <a
+                                    href="https://maps.app.goo.gl/8vo7C9C9huqTuRFD9"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="underline hover:text-blue-500"
+                                >
+                                    1741 1st Ave N, St. Petersburg, FL 33713
+                                </a>
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
