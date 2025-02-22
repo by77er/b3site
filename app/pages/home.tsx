@@ -131,16 +131,13 @@ export default function Home() {
 
                         <div className="flex-1 bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
                             <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
-                                Vendor Applications are Open!
+                                Vendor applications are closed.
                             </h3>
-                            <a
-                                href="https://docs.google.com/forms/d/e/1FAIpQLScAP-O6ZGNww9fyQmd80sCh6J8OJ57AcZEqf9E0i9nvoiPpbg/viewform?usp=dialog"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            <div
+                                className="block text-center mt-4 bg-gray-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-default"
                             >
-                                Apply Now
-                            </a>
+                                Thanks for applying!
+                            </div>
                             {/* <div className="flex flex-wrap gap-4 justify-center">
                                 {vendors.map(({name, links}, i) => (
                                     <Icon key={i} name={name} links={links} />
