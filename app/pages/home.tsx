@@ -32,7 +32,7 @@ export default function Home() {
                                 What is it?
                             </h3>
                             <p className="text-gray-700 dark:text-gray-300">
-                                Get ready for a chill, private nighttime furry event featuring vendors,
+                                Get ready for a chill, private nighttime mini-convention featuring vendors,
                                 live DJ performances, and more. Enjoy a venue with immaculate vibes,
                                 indoor and outdoor spaces, and a botanical tea bar with plenty of nearby restaurants.
                                 <br />
