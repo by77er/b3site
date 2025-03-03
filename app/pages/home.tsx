@@ -37,7 +37,7 @@ export default function Home() {
                                 indoor and outdoor spaces, and a botanical tea bar with plenty of nearby restaurants.
                                 <br />
                                 <br />
-                                <em>This event is SFW and for people aged 18 or older.</em>
+                                <em>Capacity is limited to 250 attendees. This event is SFW and for people aged 18 or older.</em>
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
