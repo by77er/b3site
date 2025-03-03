@@ -111,16 +111,11 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="flex-1 bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
                             <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
-                                DJ Applications are Open!
+                                DJ Applications are closed.
                             </h3>
-                            <a
-                                href="https://forms.gle/851zLuUDjqLFNXH49"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                            >
-                                Apply Now
-                            </a>
+                            <div className="block text-center mt-4 bg-gray-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-default">
+                                Thanks for applying!
+                            </div>
                             {/* <div className="flex flex-wrap gap-4 justify-center">
                                 {djs.map(({name, links}, i) => (
                                     <Icon key={i} name={name} links={links} />
