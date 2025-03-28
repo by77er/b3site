@@ -19,7 +19,7 @@ export default function Home() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className="bg-blue-500 hover:bg-blue-00 text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
+                            <button className="bg-blue-500 hover:bg-blue-600 transition-colors text-white font-bold py-4 px-8 rounded-lg text-2xl shadow-md hover:cursor-pointer">
                                 Get Tickets
                             </button>
                         </a>
@@ -57,7 +57,7 @@ export default function Home() {
                                     href="https://www.rootstocrown.space/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="underline hover:text-blue-500"
+                                    className="underline hover:text-blue-500 transition-colors"
                                 >
                                     Roots to Crown
                                 </a> in downtown St. Petersburg, FL
@@ -66,7 +66,7 @@ export default function Home() {
                                     href="https://maps.app.goo.gl/8vo7C9C9huqTuRFD9"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="underline hover:text-blue-500"
+                                    className="underline hover:text-blue-500 transition-colors"
                                 >
                                     1741 1st Ave N, St. Petersburg, FL 33713
                                 </a>
@@ -81,7 +81,7 @@ export default function Home() {
                                     href="https://t.me/+kDp_-2NZOVY0OThh"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
                                 >
                                     Telegram
                                 </a>
@@ -89,7 +89,7 @@ export default function Home() {
                                     href="https://x.com/baybarkbash"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+                                    className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors"
                                 >
                                     Twitter
                                 </a>
@@ -97,7 +97,7 @@ export default function Home() {
                                     href="https://bsky.app/profile/baybarkbash.bsky.social"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded"
+                                    className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded transition-colors"
                                 >
                                     Bluesky
                                 </a>
