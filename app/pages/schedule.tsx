@@ -9,7 +9,7 @@ export default function Schedule() {
     return (
         <>
             <div className="flex items-center justify-center">
-                <div className="w-full max-w-4xl flex flex-col items-center gap-8 p-4">
+                <div className="w-full max-w-4xl flex flex-col items-center gap-4 p-4">
                     <div className="relative">
                         <img
                             src={SCHEDULE_IMAGE_PATH}

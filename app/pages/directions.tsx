@@ -18,7 +18,7 @@ export default function Directions() {
                             onClick={() => setIsParkingModalOpen(true)}
                         />
                     </div>
-                    <div className="mt-4">
+                    <div className="mt-4 flex justify-center">
                         <a 
                             href={PARKING_IMAGE_PATH}
                             download 
