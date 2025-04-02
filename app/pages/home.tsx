@@ -1,6 +1,11 @@
 import Icon from "./utils/icon";
+import ImageModal from "../components/ImageModal";
+import { useState } from "react";
 
 export default function Home() {
+    const [isDJModalOpen, setIsDJModalOpen] = useState(false);
+    const [isVendorModalOpen, setIsVendorModalOpen] = useState(false);
+
     return (
         <>
             <div className="flex flex-col md:flex-row gap-8">
@@ -9,7 +14,7 @@ export default function Home() {
                         <img
                             src="/img/BAY_BARK_BASH.png"
                             alt="Bay Bark Bash Logo"
-                            className="mx-auto mb-8"
+                            className="mx-auto mb-8 rounded-2xl"
                         />
                         <h1 className="text-4xl font-bold mb-4 text-pretty">
                             Come party with furries at <br /><em>Bay Bark Bash</em>!
@@ -109,35 +114,46 @@ export default function Home() {
             <div>
                 <section className="p-4">
                     <div className="flex flex-col md:flex-row gap-8">
-                        <div className="flex-1 bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
-                            <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
+                        <div className="flex-1">
+                            {/* <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
                                 DJ Applications are closed.
                             </h3>
                             <div className="block text-center mt-4 bg-gray-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-default">
                                 Thanks for applying!
-                            </div>
-                            {/* <div className="flex flex-wrap gap-4 justify-center">
-                                {djs.map(({name, links}, i) => (
-                                    <Icon key={i} name={name} links={links} />
-                                ))}
-
                             </div> */}
+                            <img 
+                                src="/img/B3_DJS_04_2025.png"
+                                alt="DJ Lineup"
+                                className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity rounded-xl shadow-md"
+                                onClick={() => setIsDJModalOpen(true)}
+                            />
+                            <ImageModal
+                                isOpen={isDJModalOpen}
+                                onClose={() => setIsDJModalOpen(false)}
+                                imageSrc="/img/B3_DJS_04_2025.png"
+                            />
                         </div>
 
-                        <div className="flex-1 bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
-                            <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
+                        <div className="flex-1">
+                            {/* <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 text-center">
                                 Vendor applications are closed.
                             </h3>
                             <div
                                 className="block text-center mt-4 bg-gray-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-default"
                             >
                                 Thanks for applying!
-                            </div>
-                            {/* <div className="flex flex-wrap gap-4 justify-center">
-                                {vendors.map(({name, links}, i) => (
-                                    <Icon key={i} name={name} links={links} />
-                                ))}
                             </div> */}
+                            <img 
+                                src="/img/B3_VENDORS_04_2025.png"
+                                alt="Vendor List"
+                                className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity rounded-xl shadow-md"
+                                onClick={() => setIsVendorModalOpen(true)}
+                            />
+                            <ImageModal
+                                isOpen={isVendorModalOpen}
+                                onClose={() => setIsVendorModalOpen(false)}
+                                imageSrc="/img/B3_VENDORS_04_2025.png"
+                            />
                         </div>
                     </div>
                 </section>

@@ -14,7 +14,7 @@ export default function Directions() {
                         <img 
                             src={PARKING_IMAGE_PATH}
                             alt="Parking Map" 
-                            className="w-full rounded-lg shadow-md cursor-pointer"
+                            className="w-full rounded-2xl shadow-md cursor-pointer"
                             onClick={() => setIsParkingModalOpen(true)}
                         />
                     </div>

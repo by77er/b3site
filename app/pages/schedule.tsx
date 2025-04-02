@@ -14,7 +14,7 @@ export default function Schedule() {
                         <img
                             src={SCHEDULE_IMAGE_PATH}
                             alt="Schedule"
-                            className="w-full rounded-lg shadow-md cursor-pointer"
+                            className="w-full rounded-2xl shadow-md cursor-pointer"
                             onClick={() => setIsScheduleModalOpen(true)}
                         />
                     </div>
